@@ -1,0 +1,151 @@
+* {
+	padding:  0;
+	margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.header {
+	background-color: #c4baaf;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	padding-left: 150px;
+	padding-right: 150px;
+	flex: 0 0 auto;
+	position: relative;
+}
+.content {
+	background-color: #f8ebdf;
+	flex: 1 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.footer {
+	background-color: #302111;
+	height: 100px;
+	flex: 0 0 auto;
+}
+.logo {
+	font-size: 40px;
+	color:  #302111;
+	line-height: 1;
+	font-weight: bold;
+}
+.cart {
+	background-size: 30px;
+	width: 50px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	background-repeat: no-repeat;
+	padding-left: 35px;
+	font-size: 30px;
+	color: #302111;
+	cursor: pointer;
+	margin-left: auto;
+	text-decoration: none;
+	background-image: url(data:image/svg+xml;charset=utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjMycHgiIGhlaWdodD0iMzJweCIgdmlld0JveD0iMCAwIDUxMCA1MTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMCA1MTA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8ZyBpZD0ic2hvcHBpbmctY2FydCI+CgkJPHBhdGggZD0iTTE1Myw0MDhjLTI4LjA1LDAtNTEsMjIuOTUtNTEsNTFzMjIuOTUsNTEsNTEsNTFzNTEtMjIuOTUsNTEtNTFTMTgxLjA1LDQwOCwxNTMsNDA4eiBNMCwwdjUxaDUxbDkxLjgsMTkzLjhMMTA3LjEsMzA2ICAgIGMtMi41NSw3LjY1LTUuMSwxNy44NS01LjEsMjUuNWMwLDI4LjA1LDIyLjk1LDUxLDUxLDUxaDMwNnYtNTFIMTYzLjJjLTIuNTUsMC01LjEtMi41NS01LjEtNS4xdi0yLjU1MWwyMi45NS00My4zNWgxODguNyAgICBjMjAuNCwwLDM1LjctMTAuMiw0My4zNS0yNS41TDUwNC45LDg5LjI1YzUuMS01LjEsNS4xLTcuNjUsNS4xLTEyLjc1YzAtMTUuMy0xMC4yLTI1LjUtMjUuNS0yNS41SDEwNy4xTDg0LjE1LDBIMHogTTQwOCw0MDggICAgYy0yOC4wNSwwLTUxLDIyLjk1LTUxLDUxczIyLjk1LDUxLDUxLDUxczUxLTIyLjk1LDUxLTUxUzQzNi4wNSw0MDgsNDA4LDQwOHoiIGZpbGw9IiMzMDIyMTIiLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K);
+}
+.cart_list {
+	width: 300px;
+	height: auto;
+	background-color: #ffffff;
+	display: block;
+	position: absolute;
+	top: 150px;
+	right: 50px;
+	border: 1px solid #aa9d90;
+	padding: 10px;
+}
+.product {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.product > .photo {
+	width: 30px;
+	height: 30px;
+}
+.quantity {
+	color: #534d46;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-bottom: 20px;
+	justify-content: center;
+}
+.card_product {
+	width: 200px;
+	background-color: #ffffff;
+	padding: 30px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card_product button {
+	padding: 5px;
+	background-color: #d44311;
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 8px;
+	border:  none;
+}
+.photo {
+	width: 200px;
+	height: 200px;
+}
+.img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+}
+.articl {
+	color: #534d46;
+}
+.description {
+	color: #302111;
+	font-size: 20px;
+	font-weight: 600;
+}
+.price {
+	color: #f77f07;
+	font-size: 30px;
+	font-weight: 900;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.cart_button_plus {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	border: none;
+	background-color: transparent;
+	background-image: url(data:image/svg+xml;charset=utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUyIDUyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MiA1MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiPgo8cGF0aCBkPSJNMjYsMEMxMS42NjQsMCwwLDExLjY2MywwLDI2czExLjY2NCwyNiwyNiwyNnMyNi0xMS42NjMsMjYtMjZTNDAuMzM2LDAsMjYsMHogTTM4LjUsMjhIMjh2MTFjMCwxLjEwNC0wLjg5NiwyLTIsMiAgcy0yLTAuODk2LTItMlYyOEgxMy41Yy0xLjEwNCwwLTItMC44OTYtMi0yczAuODk2LTIsMi0ySDI0VjE0YzAtMS4xMDQsMC44OTYtMiwyLTJzMiwwLjg5NiwyLDJ2MTBoMTAuNWMxLjEwNCwwLDIsMC44OTYsMiwyICBTMzkuNjA0LDI4LDM4LjUsMjh6IiBmaWxsPSIjNjk1YjQyIi8+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=);
+}
+.cart_button_minus {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	border: none;
+	background-color: transparent;
+	background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUyIDUyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MiA1MjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiPgo8cGF0aCBkPSJNMjYsMEMxMS42NjQsMCwwLDExLjY2MywwLDI2czExLjY2NCwyNiwyNiwyNnMyNi0xMS42NjMsMjYtMjZTNDAuMzM2LDAsMjYsMHogTTM4LjUsMjhoLTI1Yy0xLjEwNCwwLTItMC44OTYtMi0yICBzMC44OTYtMiwyLTJoMjVjMS4xMDQsMCwyLDAuODk2LDIsMlMzOS42MDQsMjgsMzguNSwyOHoiIGZpbGw9IiM2OTViNDIiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+}
