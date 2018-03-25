@@ -1,0 +1,162 @@
+*{margin:0; padding:0;
+font-family: Arial;}
+body{
+	 margin: 0; 
+     height: 100%; 
+}
+.wrapme{
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	width: 863px;
+}
+.wrapper{
+	background-image: url(../img/background.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+.main{
+	min-height: 1200px;
+	margin: auto;
+	overflow: auto;
+}
+.header{
+	padding-top: 214px;
+}
+.logo{
+	background: url(../img/logo.png) no-repeat;
+	width: 209px;
+	height: 44px;
+	left: 10px;
+	top: 10px;
+	float: left;
+}
+.main_menu{
+	padding-top: 7px;
+	float: right;
+	display: flex;
+	vertical-align: middle;
+	line-height: 30px;
+	font-size: 17px;
+}
+.main_menu ul{
+	list-style-type: none;
+}
+.main_menu li{
+	float: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 26px;
+	padding-left: 16px;
+	background-color: #ff0000;
+}
+.main_menu a{
+	color: #ffffff;
+}
+.title{
+	font-size:81px;
+	line-height:55px;
+	padding-top: 71px;
+	color:#ffffff;
+	padding-bottom: 37px;
+	letter-spacing: -1px;
+}
+.news_header{
+	padding: 9px 18px;
+	font-size: 33px;
+}
+.news_item{
+	font-size: 14px;
+}
+.gallery ul {
+	list-style: none;
+}
+.gallery li {
+	float: left;
+	width: 174px;
+	display: block;
+}
+.gallery-nav{
+	width: 29px;
+	height: 51px;
+}
+.gallery-prev{
+	background: url(../img/left-arrow.png) no-repeat;
+}
+.gallery-next{
+	background: url(../img/right-arrow.png) no-repeat;
+}
+.mygallery_content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 955px;
+}
+.mygallery{
+	min-width: 948px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 37px;
+}
+.pfoto{
+	float: left;
+	margin: 0 15px 0 15px;
+}
+.photos {
+	width: 100%;
+	height: 71px;
+	display: inline-block;
+	padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.content {
+	display: flex;
+	margin-bottom: 33px;
+}
+.text{
+	color: #ffffff;
+	flex: 1 1 37%;
+	font-size: 14px;
+	line-height: 1.35;
+	letter-spacing: 0.3px;
+}
+.text p {
+	margin-bottom: 15px;
+}
+.news{
+	flex: 1 1 60.5%;
+	background: #ffffff;
+	margin-left: 15px;
+	height: 200px;
+}
+.news ul{
+	display: flex;
+	list-style-type: none;
+	padding: 12px 0 0 18px;
+}
+.news li{
+	width: 46%;
+	margin-right: 20px;
+	float: left;
+}
+.news_content a {
+	color: #b80606;
+	text-decoration: underline;
+}
+.lin{
+	height: 5px;
+	border: none;
+	color: #ff0000;
+	background: #ff0000;
+}
+.lin1{
+	height: 9px;
+	border: none;
+	color: #ffffff;
+	background: #ffffff;
+	margin-bottom: 13px;
+}
+.copyright{
+	color: #ffffff;
+	font-size: 14px;	
+}
