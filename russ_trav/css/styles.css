@@ -45,7 +45,7 @@ a,a:hover,a:focus{
 	overflow:hidden;
 }
 .head{
-	background-image: url(../img/head.png);
+	background-image: url(../img/head_whole.jpg);
 	position: absolute;
 	height:1283px;
 	width:1920px;
@@ -106,6 +106,8 @@ a,a:hover,a:focus{
 	height:45px;
 	position:absolute;
 	bottom:0;
+	background-color: #334908;
+	opacity: 0.7;
 }
 .menu {
 	position:absolute;
@@ -193,7 +195,7 @@ ul{
 	margin-top: 35px;
 }
 .bar_panel{
-	background-image: url(../img/bar_panel.png);
+	background-color: #fff;
 	border-radius: 0 0 7px 7px;
 	padding-bottom: 7px;
 }
@@ -289,7 +291,7 @@ ul{
 }
 .bar-panel1{
 	margin-top: 35px;
-	background-image: url(../img/bar_panel.png);
+	background-color: #fff;
 	border-radius: 0 0 7px 7px;
 	padding-bottom: 7px;
 }
